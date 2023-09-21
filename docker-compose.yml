@@ -67,7 +67,7 @@ services:
     ports:
       # - 80:80
       - target: 80
-        published: 80
+        published: 10086
         protocol: tcp
         mode: host
     environment:
